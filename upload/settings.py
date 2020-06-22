@@ -25,9 +25,9 @@ SECRET_KEY = 'r@8s4&n$t-#e(92_puzqojhqaa%!)i(&85uv99ijowitjpm%@1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ocrhello.herokuapp.com','127.0.0.1']
+STATIC_ROOT = os.path.join(BASE_DIR,"staticfiles")
 # Application definition
 
 INSTALLED_APPS = [
